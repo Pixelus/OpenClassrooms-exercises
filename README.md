@@ -7,7 +7,7 @@ Résolution de problèmes de programmation du site OpenClassrooms avec les langa
 * Créez des pages web interactives avec JavaScript
   * Comptage des éléments
   * Gestion des attributs et des classes
- * Apprenez à programmer en C
+* Apprenez à programmer en C
   * Somme de deux variables
   * Jeu du plus ou moins
   * Menu d'un restaurant
