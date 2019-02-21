@@ -14,5 +14,5 @@ Résolution de problèmes de programmation du site OpenClassrooms avec les langa
   * Vérification de l'âge légal
   * Jeu du nombre mystère
 * Apprenez à coder avec javaScript
- * Devinette
- * Contacts
+  * Devinette
+  * Contacts
