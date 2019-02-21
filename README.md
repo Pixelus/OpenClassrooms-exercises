@@ -13,3 +13,6 @@ Résolution de problèmes de programmation du site OpenClassrooms avec les langa
   * Menu d'un restaurant
   * Vérification de l'âge légal
   * Jeu du nombre mystère
+* Apprenez à coder avec javaScript
+ * Devinette
+ * Contacts
