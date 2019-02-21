@@ -30,5 +30,5 @@ afficherEnfant(document.body, -1);
 afficherEnfant(document.body, 8);
 
 // Doit afficher l'erreur "Type de noeud incorrect"
-// Le premier noeud enfant de body est textuel et n'a donc pas d'enfants
+// Le premier noeud enfant de body est textuel et n'a donc pas d'enfant
 afficherEnfant(document.body.childNodes[0], 0);
