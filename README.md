@@ -5,21 +5,25 @@ Résolution de problèmes de programmation du site OpenClassrooms avec les langa
 ## Méthodologie
 
 * Apprendre à apprendre
+
   * Création d'une meta-carte mentale
   
 ## JavaScript
 
 * Créez des pages web interactives avec JavaScript
+
   * Comptage des éléments
   * Gestion des attributs et des classes
   
 * Apprenez à coder avec javaScript
+
   * Devinette
   * Contacts
   
 ## C
 
 * Apprenez à programmer en C
+
   * Somme de deux variables
   * Jeu du plus ou moins
   * Menu d'un restaurant
