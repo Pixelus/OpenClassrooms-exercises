@@ -1,4 +1,4 @@
-# OpenClassrooms-exercises
+# Programmes OpenClassrooms
 
 Résolution de problèmes de programmation du site OpenClassrooms avec les langages C et JavaScript.
 
