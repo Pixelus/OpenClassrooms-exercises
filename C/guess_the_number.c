@@ -1,23 +1,37 @@
 //
 //  main.c
-//  monprogramme
+//  guess_the_number
 //
-//  Created by PixelNew on 05/10/2018.
+//  Created by PixelNew on 15/10/2018.
 //  Copyright © 2018 PixelNew. All rights reserved.
 //
 
 #include <stdio.h>
 #include <stdlib.h>
-
-const int AGE_LEGAL = 18;
-int age = 0; // On initialise la variable à 0
+#include <time.h>
 
 int main(int argc, const char * argv[]) {
-    printf("Hello, World!\n");
-    printf("Quel age avez-vous ? ");
-    scanf("%d", &age); // On demande d'entrer l'âge avec scanf
-    printf("Ah ! Vous avez donc %d ans !\n\n", age);
-    printf("L'âge légal est de %d.", AGE_LEGAL);
+    int nombreMystere, nombreDonne;
+    const int MAX = 100, MIN = 1;
+
+    srand(time(NULL));
+    nombreMystere = (rand() % (MAX - MIN + 1)) + MIN;
     
+    do {
+        printf("Quel est le nombre ? ");
+        scanf("%d", &nombreDonne);
+        printf("\n");
+        if(nombreDonne > nombreMystere){
+            printf("C'est moins !\n");
+        }
+        else if (nombreDonne < nombreMystere) {
+            printf("C'est plus !\n");
+        }
+        else {
+            printf("Bravo, vous avez trouvé le nombre mystère !!!");
+        }
+    }
+    while(nombreDonne != nombreMystere);
+    printf("\n");
     return 0;
 }
